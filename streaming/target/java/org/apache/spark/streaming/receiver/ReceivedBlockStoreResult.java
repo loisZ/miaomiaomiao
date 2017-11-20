@@ -1,0 +1,5 @@
+package org.apache.spark.streaming.receiver;
+/** Trait that represents the metadata related to storage of blocks */
+public  interface ReceivedBlockStoreResult {
+  public  org.apache.spark.storage.StreamBlockId blockId () ;
+}

@@ -1,0 +1,19 @@
+package org.apache.spark.executor;
+// no position
+/**
+ * These are exit codes that executors should use to provide the master with information about
+ * executor failures assuming that cluster management framework can capture the exit codes (but
+ * perhaps not log files). The exit code constants here are chosen to be unlikely to conflict
+ * with "natural" exit statuses that may be caused by the JVM or user code. In particular,
+ * exit codes 128+ arise on some Unix-likes as a result of signals, and it appears that the
+ * OpenJDK JVM may use exit code 1 in some of its own "last chance" code.
+ */
+public  class ExecutorExitCode {
+  /** DiskStore failed to create a local temporary directory after many attempts. */
+  static public  int DISK_STORE_FAILED_TO_CREATE_DIR () { throw new RuntimeException(); }
+  /** TachyonStore failed to initialize after many attempts. */
+  static public  int TACHYON_STORE_FAILED_TO_INITIALIZE () { throw new RuntimeException(); }
+  /** TachyonStore failed to create a local temporary directory after many attempts. */
+  static public  int TACHYON_STORE_FAILED_TO_CREATE_DIR () { throw new RuntimeException(); }
+  static public  java.lang.String explainExitCode (int exitCode) { throw new RuntimeException(); }
+}

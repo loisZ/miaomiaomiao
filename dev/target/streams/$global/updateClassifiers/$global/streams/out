@@ -1,0 +1,848 @@
+[debug] :: resolving dependencies :: old-deps#old-deps$sources_2.10;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e885158
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-mqtt_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e569e8b
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-zeromq_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming-flume_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cad0dda
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-flume_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming-flume_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming-kafka_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e5a8ae5
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-kafka_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming-kafka_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming-twitter_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2602426c
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-twitter_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming-twitter_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-streaming_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f45a251
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-streaming_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-mllib_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@530c3401
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-mllib_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-bagel_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@547339a8
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-bagel_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-bagel_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-graphx_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4936031f
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-graphx_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-core_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4057480d
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-core_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [runtime->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test->master]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [test-internal->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test-internal->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test-internal->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
+[debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#jline;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4
+[debug] 	found org.scala-lang#jline;2.10.4 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-mqtt_2.10;1.2.0!spark-streaming-mqtt_2.10.jar
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming-mqtt_2.10/1.2.0/srcs/spark-streaming-mqtt_2.10-sources.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming-mqtt_2.10/1.2.0/srcs/spark-streaming-mqtt_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-mqtt_2.10;1.2.0!spark-streaming-mqtt_2.10.jar(src) (35ms)
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming-zeromq_2.10/1.2.0/srcs/spark-streaming-zeromq_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-zeromq_2.10;1.2.0!spark-streaming-zeromq_2.10.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming-zeromq_2.10/1.2.0/srcs/spark-streaming-zeromq_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-zeromq_2.10;1.2.0!spark-streaming-zeromq_2.10.jar(src) (28ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-flume_2.10;1.2.0!spark-streaming-flume_2.10.jar
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming-flume_2.10/1.2.0/srcs/spark-streaming-flume_2.10-sources.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming-flume_2.10/1.2.0/srcs/spark-streaming-flume_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-flume_2.10;1.2.0!spark-streaming-flume_2.10.jar(src) (28ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-kafka_2.10;1.2.0!spark-streaming-kafka_2.10.jar
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming-kafka_2.10/1.2.0/srcs/spark-streaming-kafka_2.10-sources.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming-kafka_2.10/1.2.0/srcs/spark-streaming-kafka_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-kafka_2.10;1.2.0!spark-streaming-kafka_2.10.jar(src) (32ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-twitter_2.10;1.2.0!spark-streaming-twitter_2.10.jar
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming-twitter_2.10/1.2.0/srcs/spark-streaming-twitter_2.10-sources.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming-twitter_2.10/1.2.0/srcs/spark-streaming-twitter_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-twitter_2.10;1.2.0!spark-streaming-twitter_2.10.jar(src) (26ms)
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.2.0/srcs/spark-streaming_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.2.0!spark-streaming_2.10.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-streaming_2.10/1.2.0/srcs/spark-streaming_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.2.0!spark-streaming_2.10.jar(src) (346ms)
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.2.0/srcs/spark-mllib_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.2.0!spark-mllib_2.10.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-mllib_2.10/1.2.0/srcs/spark-mllib_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.2.0!spark-mllib_2.10.jar(src) (78ms)
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-bagel_2.10/1.2.0/srcs/spark-bagel_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-bagel_2.10;1.2.0!spark-bagel_2.10.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-bagel_2.10/1.2.0/srcs/spark-bagel_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-bagel_2.10;1.2.0!spark-bagel_2.10.jar(src) (213ms)
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.2.0/srcs/spark-graphx_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.2.0!spark-graphx_2.10.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-graphx_2.10/1.2.0/srcs/spark-graphx_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.2.0!spark-graphx_2.10.jar(src) (197ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.2.0!spark-core_2.10.jar
+[debug] 		tried /home/cs143/.ivy2/local/org.apache.spark/spark-core_2.10/1.2.0/srcs/spark-core_2.10-sources.jar
+[debug] 		tried file:/home/cs143/.sbt/preloaded/org.apache.spark/spark-core_2.10/1.2.0/srcs/spark-core_2.10-sources.jar
+[debug] 		tried file:////home/cs143/.sbt/preloaded/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.2.0!spark-core_2.10.jar(src) (181ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
+[debug] :: resolution report :: resolve 44ms :: artifacts dl 1196ms
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT compile produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-compile.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT runtime produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-runtime.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT test produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-test.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT provided produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-provided.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT optional produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-optional.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT compile-internal produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-compile-internal.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT runtime-internal produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-runtime-internal.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT test-internal produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-test-internal.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT plugin produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-plugin.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT sources produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-sources.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT docs produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-docs.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT pom produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-pom.xml
+[debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT scala-tool produced in /home/cs143/CS143/project2/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-scala-tool.xml
+[debug] 	resolve done (44ms resolve - 1196ms download)
