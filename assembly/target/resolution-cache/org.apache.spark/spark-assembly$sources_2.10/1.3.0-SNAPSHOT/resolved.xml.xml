@@ -4,7 +4,7 @@
 		module="spark-assembly$sources_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20171115143951"
+		publication="20171120150104"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

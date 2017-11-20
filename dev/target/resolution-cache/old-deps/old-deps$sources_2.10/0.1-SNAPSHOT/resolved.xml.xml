@@ -4,7 +4,7 @@
 		module="old-deps$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171115143947"
+		publication="20171120150053"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

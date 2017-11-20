@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/bundles/jackson-annotations-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/jackson-annotations-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

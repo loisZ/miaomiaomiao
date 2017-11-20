@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="oldDeps" />
+    <profile name="SBT 10" modules="repl">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/repl/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 11" modules="catalyst">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/sql/catalyst/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/paradise_2.10.4-2.0.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 12" modules="sql">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/sql/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 13" modules="hive">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/sql/hive/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 14" modules="streaming">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/streaming/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 15" modules="tools">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/tools/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 2" modules="spark">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 3" modules="assembly">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/assembly/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 4" modules="bagel">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/bagel/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 5" modules="core">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 6" modules="graphx">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/graphx/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 7" modules="mllib">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/mllib/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 8" modules="network-common">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/network/common/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 9" modules="network-shuffle">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/home/ztl/miaomiaomiao/network/shuffle/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.seleniumhq.selenium:selenium-remote-driver:2.42.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/selenium-remote-driver-2.42.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/selenium-remote-driver-2.42.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

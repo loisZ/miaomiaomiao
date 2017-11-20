@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT [compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6de1eb35
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f1c0621
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -15,17 +15,17 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@181f7d5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cc3271d
 [debug] don't use cache for org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a126cf0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e802556
 [debug] don't use cache for org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-all;4.0.23.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c980e9c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3541a6
 [debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	found io.netty#netty-all;4.0.23.Final in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->runtime]
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
 [info] Resolving org.spark-project.spark#unused;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7914bcf1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@413ea02c
 [debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->runtime]
@@ -41,12 +41,12 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@287ba4e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@499bc830
 [debug] don't use cache for org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill_2.10;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@592b914
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78d1008d
 [debug] sbt-chain: module revision found in cache: com.twitter#chill_2.10;0.5.0
 [debug] 	found com.twitter#chill_2.10;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->runtime]
@@ -54,7 +54,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill-java;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9c9ffc5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ca3cbdd
 [debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
 [debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->runtime]
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b23fd3f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b6b4a68
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->runtime]
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@118ed2d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6782b093
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->runtime]
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53a5f127
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66891c9e
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->runtime]
@@ -86,7 +86,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1acac00a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71207cc4
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
 [debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->runtime]
@@ -94,7 +94,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58e87c5e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76934284
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->runtime]
@@ -102,7 +102,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
 [info] Resolving commons-configuration#commons-configuration;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4763d7ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67a46361
 [debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
 [debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->runtime]
@@ -110,7 +110,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c4339b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fd8b4d
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->runtime]
@@ -118,7 +118,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42640fc0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22beef40
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.4
 [debug] 	found commons-lang#commons-lang;2.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->runtime]
@@ -126,7 +126,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f35b7d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c05c05f
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -134,7 +134,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->default(compile)]
 [info] Resolving commons-digester#commons-digester;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27054dc0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5eb9ea34
 [debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
 [debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->runtime]
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
 [info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595a135d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60030aac
 [debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->runtime]
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->default(compile)]
 [info] Resolving commons-el#commons-el;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b6b884a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bb1168d
 [debug] sbt-chain: module revision found in cache: commons-el#commons-el;1.0
 [debug] 	found commons-el#commons-el;1.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->runtime]
@@ -158,7 +158,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->default(compile)]
 [info] Resolving oro#oro;2.0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8b7e9c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14a4fe7b
 [debug] sbt-chain: module revision found in cache: oro#oro;2.0.8
 [debug] 	found oro#oro;2.0.8 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->runtime]
@@ -166,7 +166,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@342f0636
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e849cf5
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
@@ -174,7 +174,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74fafebf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@736e7ac3
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
@@ -182,7 +182,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24bbaf88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1102c0c8
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->runtime]
@@ -190,7 +190,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-framework;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63705fab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cb19cd0
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->runtime]
@@ -198,7 +198,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-client;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a57e8f8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10b24fad
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->runtime]
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
 [info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79354c1a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@aba6fa0
 [debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->runtime]
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->default(compile)]
 [info] Resolving jline#jline;0.9.94 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@710303c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27f69837
 [debug] sbt-chain: module revision found in cache: jline#jline;0.9.94
 [debug] 	found jline#jline;0.9.94 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->runtime]
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74a78986
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30dd777b
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime]
@@ -230,7 +230,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-plus;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58ac90dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44ced07e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-plus;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->runtime]
@@ -238,7 +238,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d2425d7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@544fd621
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	found org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->runtime]
@@ -246,7 +246,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75ded14e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10592622
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->runtime]
@@ -254,7 +254,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-xml;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27cbbb25
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19231b59
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-xml;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->runtime]
@@ -262,7 +262,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@298fcb30
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@df35e79
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->runtime]
@@ -270,7 +270,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@130de43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@507f1f06
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->runtime]
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-security;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ddec1ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e4e2e1f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-security;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->runtime]
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37e2ecd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a78d473
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->runtime]
@@ -294,7 +294,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58252c65
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@177f7705
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime]
@@ -302,7 +302,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@776fc6d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@513b7082
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->runtime]
@@ -310,7 +310,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66fcfbce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27cdc13a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->runtime]
@@ -318,7 +318,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46d7634e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42326214
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->runtime]
@@ -326,7 +326,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d2fd99d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@113f3ce
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->runtime]
@@ -334,7 +334,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5859303
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@375d7d42
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	found org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->runtime]
@@ -342,7 +342,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197cf3a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29d83896
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	found org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->runtime]
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62bddaae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1444510c
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
@@ -358,7 +358,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17a763e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@115f79fa
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	found org.apache.commons#commons-math3;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime]
@@ -366,7 +366,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a617f62
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15c97b39
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -374,7 +374,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c03b1e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d1b90f2
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->runtime]
@@ -382,7 +382,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@364b34b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1820002a
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime]
@@ -390,7 +390,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e398a8a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c720c2b
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
 [debug] 	found log4j#log4j;1.2.17 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
@@ -398,7 +398,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7073d31f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22049e82
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.5
 [debug] 	found org.slf4j#slf4j-log4j12;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
@@ -406,7 +406,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->default(compile)]
 [info] Resolving com.ning#compress-lzf;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19039baa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37682f95
 [debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.0
 [debug] 	found com.ning#compress-lzf;1.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->runtime]
@@ -414,7 +414,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->default(compile)]
 [info] Resolving org.xerial.snappy#snappy-java;1.1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e684ff5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61b44eea
 [debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	found org.xerial.snappy#snappy-java;1.1.1.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->runtime]
@@ -422,7 +422,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->default(compile)]
 [info] Resolving net.jpountz.lz4#lz4;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71a93227
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79155e98
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	found net.jpountz.lz4#lz4;1.2.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->runtime]
@@ -430,7 +430,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->default(compile)]
 [info] Resolving org.roaringbitmap#RoaringBitmap;0.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31fda38b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78d115d9
 [debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	found org.roaringbitmap#RoaringBitmap;0.4.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->runtime]
@@ -438,7 +438,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c24d8bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f131336
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
 [debug] 	found commons-net#commons-net;2.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->runtime]
@@ -446,7 +446,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-remote_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f61584a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@732a62a4
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-remote_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-remote_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->runtime]
@@ -454,7 +454,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-actor_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@369de3f9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@497e109d
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-actor_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-actor_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->runtime]
@@ -462,7 +462,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@214809f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c59f87b
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->runtime]
@@ -470,7 +470,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@161b44f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a2c2888
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->runtime]
@@ -478,7 +478,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->default(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26502691
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64682fd0
 [debug] sbt-chain: module revision found in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	found org.spark-project.protobuf#protobuf-java;2.5.0-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->runtime]
@@ -486,7 +486,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@220e05de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ff3536
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
@@ -494,7 +494,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@376ac251
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7772d2a8
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->runtime]
@@ -502,7 +502,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cbea3fa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ef8a576
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.10;3.2.10
 [debug] 	found org.json4s#json4s-jackson_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->runtime]
@@ -510,7 +510,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4585b2dc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32476abc
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->runtime]
@@ -518,7 +518,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b40e4d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32f26e1
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->runtime]
@@ -526,7 +526,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29314dac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3eb3ccf9
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
@@ -534,7 +534,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66ca6776
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3419cb82
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
 [debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->runtime]
@@ -542,7 +542,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54cea21f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29ea75f0
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->runtime]
@@ -550,7 +550,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4873de26
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3094dcf8
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->runtime]
@@ -558,7 +558,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10af0232
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33e82057
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->runtime]
@@ -566,7 +566,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->default(compile)]
 [info] Resolving org.apache.mesos#mesos;0.18.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43707ed
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74680bee
 [debug] sbt-chain: module revision found in cache: org.apache.mesos#mesos;0.18.1
 [debug] 	found org.apache.mesos#mesos;0.18.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->runtime]
@@ -574,7 +574,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->default(compile)]
 [info] Resolving com.clearspring.analytics#stream;2.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@590607c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10eafc1a
 [debug] sbt-chain: module revision found in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	found com.clearspring.analytics#stream;2.7.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->runtime]
@@ -582,7 +582,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-core;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c93a832
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a4ae8a5
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-core;3.0.0
 [debug] 	found com.codahale.metrics#metrics-core;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->runtime]
@@ -590,7 +590,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-jvm;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75484643
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7482fc63
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-jvm;3.0.0
 [debug] 	found com.codahale.metrics#metrics-jvm;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->runtime]
@@ -598,7 +598,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-json;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6acf8e5c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16936764
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-json;3.0.0
 [debug] 	found com.codahale.metrics#metrics-json;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->runtime]
@@ -606,7 +606,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-graphite;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b1cba73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56c132e6
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-graphite;3.0.0
 [debug] 	found com.codahale.metrics#metrics-graphite;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->runtime]
@@ -614,7 +614,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25dacc88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69165fd6
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	found org.tachyonproject#tachyon;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->runtime]
@@ -622,7 +622,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bd51081
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7d623d
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime]
@@ -630,7 +630,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->default(compile)]
 [info] Resolving org.spark-project#pyrolite;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@339c3388
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38aa8829
 [debug] sbt-chain: module revision found in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	found org.spark-project#pyrolite;2.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->runtime]
@@ -638,7 +638,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->default(compile)]
 [info] Resolving net.sf.py4j#py4j;0.8.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52a36cb7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@651da0d1
 [debug] sbt-chain: module revision found in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	found net.sf.py4j#py4j;0.8.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->runtime]
@@ -646,22 +646,22 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4824a279
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7356aef3
 [debug] don't use cache for org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@92acd65
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@368ba0aa
 [debug] don't use cache for org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48bc5711
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@712182ad
 [debug] don't use cache for org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79d1a48a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a6bf51
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->runtime]
@@ -669,7 +669,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@467990a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bd3bfbb
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
@@ -678,7 +678,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->default(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c4f6fd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48ccae
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->runtime]
@@ -686,7 +686,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@300f9fa7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c65af3b
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-column;1.6.0rc3
 [debug] 	found com.twitter#parquet-column;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->runtime]
@@ -694,7 +694,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ce13a03
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18b12043
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-common;1.6.0rc3
 [debug] 	found com.twitter#parquet-common;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->runtime]
@@ -702,7 +702,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74751bde
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b50049c
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-encoding;1.6.0rc3
 [debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->runtime]
@@ -710,7 +710,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5598f6bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63449e6c
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-generator;1.6.0rc3
 [debug] 	found com.twitter#parquet-generator;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->runtime]
@@ -718,7 +718,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b084ee3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ad453e8
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.5
 [debug] 	found commons-codec#commons-codec;1.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->runtime]
@@ -726,7 +726,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e104cda
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28928df8
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-hadoop;1.6.0rc3
 [debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->runtime]
@@ -734,7 +734,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@683782e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18c80feb
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-format;2.2.0-rc1
 [debug] 	found com.twitter#parquet-format;2.2.0-rc1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->runtime]
@@ -742,7 +742,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32230fa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a6b61c
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-jackson;1.6.0rc3
 [debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->runtime]
@@ -750,7 +750,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1be08a0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c165505
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->runtime]
@@ -758,7 +758,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@401c370b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52c9a4cf
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->runtime]
@@ -766,7 +766,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->default(compile)]
 [info] Resolving org.jblas#jblas;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33c52bf6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f18d0b7
 [debug] sbt-chain: module revision found in cache: org.jblas#jblas;1.2.3
 [debug] 	found org.jblas#jblas;1.2.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->runtime]
@@ -774,7 +774,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.10;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ba0d0a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b2235a5
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.10;0.10
 [debug] 	found org.scalanlp#breeze_2.10;0.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->runtime]
@@ -782,7 +782,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.10;0.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e110ca8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76db92b9
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.10;0.3.1
 [debug] 	found org.scalanlp#breeze-macros_2.10;0.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->runtime]
@@ -790,15 +790,23 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71fa269e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a3b6a54
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[info] Resolving net.sourceforge.f2j#arpack_combined_all;0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28375a9f
+[debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
+[debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b0f211a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cd89013
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -806,7 +814,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31aa6901
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c31493e
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -814,7 +822,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5615ac62
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af27560
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.10;0.7.4
 [debug] 	found org.spire-math#spire_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->runtime]
@@ -822,7 +830,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f80d55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ea3a7d0
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.10;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [compile->runtime]
@@ -1217,6 +1225,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->compile]
@@ -1619,6 +1631,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->compile]
@@ -2025,6 +2041,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->compile]
@@ -2427,6 +2447,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->compile]
@@ -2829,6 +2853,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->compile]
@@ -2847,7 +2875,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalatest#scalatest_2.10;2.2.1 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.10;2.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@674f367c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35a62b14
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.1
 [debug] 	found org.scalatest#scalatest_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalatest#scalatest_2.10;2.2.1 [test->runtime]
@@ -2855,7 +2883,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalatest#scalatest_2.10;2.2.1 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.11.3 [test->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.10;1.11.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b15fade
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f7a5ba
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.10;1.11.3
 [debug] 	found org.scalacheck#scalacheck_2.10;1.11.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.11.3 [test->runtime]
@@ -2863,7 +2891,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scalacheck#scalacheck_2.10;1.11.3 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cfbc107
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d072edf
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -2871,7 +2899,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@754a3033
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28b7e889
 [debug] sbt-chain: module revision found in cache: junit#junit;4.10
 [debug] 	found junit#junit;4.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit;4.10 [test->runtime]
@@ -2879,7 +2907,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit;4.10 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ad0de0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77b21642
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
 [debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime]
@@ -2887,7 +2915,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4012ca42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@529c7fc5
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.10
 [debug] 	found com.novocode#junit-interface;0.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->runtime]
@@ -2895,7 +2923,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit-dep;4.10 [test->default(compile)]
 [info] Resolving junit#junit-dep;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a26af50
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d2be1d
 [debug] sbt-chain: module revision found in cache: junit#junit-dep;4.10
 [debug] 	found junit#junit-dep;4.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit-dep;4.10 [test->runtime]
@@ -2903,7 +2931,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->junit#junit-dep;4.10 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.mockito#mockito-all;1.9.0 [test->default(compile)]
 [info] Resolving org.mockito#mockito-all;1.9.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@756ee6a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d6f55e
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-all;1.9.0
 [debug] 	found org.mockito#mockito-all;1.9.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.mockito#mockito-all;1.9.0 [test->runtime]
@@ -3302,6 +3330,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->compile]
@@ -3706,6 +3738,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile-internal->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile-internal->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile-internal->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile-internal->compile]
@@ -4112,6 +4148,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->compile]
@@ -4514,6 +4554,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->compile]
@@ -4917,6 +4961,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime-internal->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime-internal->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime-internal->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime-internal->compile]
@@ -5324,6 +5372,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->compile]
@@ -5726,6 +5778,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [runtime->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [runtime->compile]
@@ -6128,6 +6184,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test->compile]
@@ -6564,6 +6624,10 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test-internal->compile]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [test-internal->master]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->runtime]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->compile]
+[debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sourceforge.f2j#arpack_combined_all;0.1 [test-internal->master]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test-internal->default(compile)]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test-internal->runtime]
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [test-internal->compile]
@@ -6672,88 +6736,88 @@
 [debug] == resolving dependencies org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-all;4.0.23.Final!netty-all.jar
 [debug] 	[NOT REQUIRED] io.netty#netty-all;4.0.23.Final!netty-all.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar
-[debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar
+[debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar
 [debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar
+[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(src)
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(src)
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar(src)
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
 [debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
+[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.4!commons-lang.jar
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.4!commons-lang.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
 [debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar
+[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(src)
-[debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar
 [debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar(src)
-[debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar
+[debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar
 [debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar(src)
-[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
+[debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar
 [debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar
+[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar
+[debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-plus;8.1.14.v20131031!jetty-plus.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-plus;8.1.14.v20131031!jetty-plus.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;8.1.14.v20131031!jetty-servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;8.1.14.v20131031!jetty-servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.14.v20131031!jetty-continuation.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.14.v20131031!jetty-continuation.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.14.v20131031!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.14.v20131031!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar
@@ -6762,64 +6826,64 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar
-[debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar
 [debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar(src)
-[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar(src)
+[debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar
-[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar(src)
+[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar(src)
 [debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar
-[debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar(src)
+[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar(src)
 [debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar
+[debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-remote_2.10;2.3.4-spark!akka-remote_2.10.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-remote_2.10;2.3.4-spark!akka-remote_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar
+[debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar
-[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+[debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark!akka-slf4j_2.10.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark!akka-slf4j_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar
 [debug] 	[NOT REQUIRED] org.apache.mesos#mesos;0.18.1!mesos.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.mesos#mesos;0.18.1!mesos.jar
 [debug] 	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar(src)
 [debug] 	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar(src)
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar(src)
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar(src)
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar(src)
 [debug] 	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar(src)
 [debug] 	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
@@ -6830,77 +6894,309 @@
 [debug] 	[NOT REQUIRED] net.sf.py4j#py4j;0.8.2.1!py4j.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/org.scalamacros/quasiquotes_2.10/2.0.1/srcs/quasiquotes_2.10-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.scalamacros/quasiquotes_2.10/2.0.1/srcs/quasiquotes_2.10-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src) (40ms)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-column/1.6.0rc3/srcs/parquet-column-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-column/1.6.0rc3/srcs/parquet-column-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src) (55ms)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar
-[debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-common/1.6.0rc3/srcs/parquet-common-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-common/1.6.0rc3/srcs/parquet-common-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(src) (46ms)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-encoding/1.6.0rc3/srcs/parquet-encoding-sources.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar
-[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-encoding/1.6.0rc3/srcs/parquet-encoding-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(src) (59ms)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar
-[debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-generator/1.6.0rc3/srcs/parquet-generator-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-generator/1.6.0rc3/srcs/parquet-generator-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(src) (55ms)
+[debug] 		tried /home/ztl/.ivy2/local/commons-codec/commons-codec/1.5/srcs/commons-codec-sources.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/commons-codec/commons-codec/1.5/srcs/commons-codec-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar
+[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.5!commons-codec.jar(src) (71ms)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-hadoop/1.6.0rc3/srcs/parquet-hadoop-sources.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-hadoop/1.6.0rc3/srcs/parquet-hadoop-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(src) (67ms)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar
-[debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-format/2.2.0-rc1/srcs/parquet-format-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-format/2.2.0-rc1/srcs/parquet-format-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(src) (64ms)
+[debug] 		tried /home/ztl/.ivy2/local/com.twitter/parquet-jackson/1.6.0rc3/srcs/parquet-jackson-sources.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar
-[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.twitter/parquet-jackson/1.6.0rc3/srcs/parquet-jackson-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar
+[info] 	[SUCCESSFUL ] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(src) (62ms)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar
+[debug] 		tried /home/ztl/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.11/srcs/jackson-mapper-asl-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.codehaus.jackson/jackson-mapper-asl/1.9.11/srcs/jackson-mapper-asl-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar
+[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src) (67ms)
+[debug] 		tried /home/ztl/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.11/srcs/jackson-core-asl-sources.jar
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar
-[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(src)
-[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.codehaus.jackson/jackson-core-asl/1.9.11/srcs/jackson-core-asl-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar
+[info] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(src) (70ms)
 [debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar(src)
-[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar
+[debug] 		tried /home/ztl/.ivy2/local/org.scalanlp/breeze_2.10/0.10/srcs/breeze_2.10-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.scalanlp/breeze_2.10/0.10/srcs/breeze_2.10-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar
+[info] 	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar(src) (65ms)
+[debug] 		tried /home/ztl/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.3.1/srcs/breeze-macros_2.10-sources.jar
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.scalanlp/breeze-macros_2.10/0.3.1/srcs/breeze-macros_2.10-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar(src) (27ms)
+[debug] 		tried /home/ztl/.ivy2/local/com.github.fommil.netlib/core/1.1.2/srcs/core-sources.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.github.fommil.netlib/core/1.1.2/srcs/core-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar
+[info] 	[SUCCESSFUL ] com.github.fommil.netlib#core;1.1.2!core.jar(src) (56ms)
+[debug] 	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar
+[debug] 		tried /home/ztl/.ivy2/local/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repository.apache.org/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.apache.org/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repository.jboss.org/nexus/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.jboss.org/nexus/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repo.eclipse.org/content/repositories/paho-releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.eclipse.org/content/repositories/paho-releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repository.cloudera.com/artifactory/cloudera-repos/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repository.cloudera.com/artifactory/cloudera-repos/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried http://repository.mapr.com/maven/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repository.mapr.com/maven/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried https://repo.spring.io/libs-release/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.spring.io/libs-release/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried http://repository.apache.org/snapshots/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repository.apache.org/snapshots/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[debug] 		tried file:/home/ztl/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] 	[FAILED     ] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /home/ztl/.ivy2/local/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[warn] ==== local-preloaded-ivy: tried
+[warn]   file:/home/ztl/.sbt/preloaded/net.sourceforge.f2j/arpack_combined_all/0.1/srcs/arpack_combined_all-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:////home/ztl/.sbt/preloaded/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== central: tried
+[warn]   https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== apache-repo: tried
+[warn]   https://repository.apache.org/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== jboss-repo: tried
+[warn]   https://repository.jboss.org/nexus/content/repositories/releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== mqtt-repo: tried
+[warn]   https://repo.eclipse.org/content/repositories/paho-releases/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== cloudera-repo: tried
+[warn]   https://repository.cloudera.com/artifactory/cloudera-repos/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== mapr-repo: tried
+[warn]   http://repository.mapr.com/maven/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== spring-releases: tried
+[warn]   https://repo.spring.io/libs-release/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== apache.snapshots: tried
+[warn]   http://repository.apache.org/snapshots/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
+[warn] ==== Maven2 Local: tried
+[warn]   file:/home/ztl/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-sources.jar
 [debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar
-[debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(src)
-[debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/net.sf.opencsv/opencsv/2.3/srcs/opencsv-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/net.sf.opencsv/opencsv/2.3/srcs/opencsv-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar
+[info] 	[SUCCESSFUL ] net.sf.opencsv#opencsv;2.3!opencsv.jar(src) (43ms)
 [debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar
+[debug] 		tried /home/ztl/.ivy2/local/com.github.rwl/jtransforms/2.4.0/srcs/jtransforms-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.github.rwl/jtransforms/2.4.0/srcs/jtransforms-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar
+[info] 	[SUCCESSFUL ] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src) (46ms)
+[debug] 		tried /home/ztl/.ivy2/local/org.spire-math/spire_2.10/0.7.4/srcs/spire_2.10-sources.jar
 [debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar
-[debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.spire-math/spire_2.10/0.7.4/srcs/spire_2.10-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar
+[info] 	[SUCCESSFUL ] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar(src) (40ms)
+[debug] 		tried /home/ztl/.ivy2/local/org.spire-math/spire-macros_2.10/0.7.4/srcs/spire-macros_2.10-sources.jar
 [debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.spire-math/spire-macros_2.10/0.7.4/srcs/spire-macros_2.10-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar
+[info] 	[SUCCESSFUL ] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar(src) (38ms)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.3!scalacheck_2.10.jar
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.3!scalacheck_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 		tried /home/ztl/.ivy2/local/junit/junit/4.10/srcs/junit-sources.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/junit/junit/4.10/srcs/junit-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/junit/junit/4.10/junit-4.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
+[info] 	[SUCCESSFUL ] junit#junit;4.10!junit.jar(src) (61ms)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.10!junit-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.10!junit-interface.jar
-[debug] 	[NOT REQUIRED] junit#junit-dep;4.10!junit-dep.jar(src)
+[debug] 		tried /home/ztl/.ivy2/local/com.novocode/junit-interface/0.10/srcs/junit-interface-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/com.novocode/junit-interface/0.10/srcs/junit-interface-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/novocode/junit-interface/0.10/junit-interface-0.10-sources.jar
+[info] 	[SUCCESSFUL ] com.novocode#junit-interface;0.10!junit-interface.jar(src) (31ms)
 [debug] 	[NOT REQUIRED] junit#junit-dep;4.10!junit-dep.jar
+[debug] 		tried /home/ztl/.ivy2/local/junit/junit-dep/4.10/srcs/junit-dep-sources.jar
+[debug] 		tried file:/home/ztl/.sbt/preloaded/junit/junit-dep/4.10/srcs/junit-dep-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/junit/junit-dep/4.10/junit-dep-4.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/junit/junit-dep/4.10/junit-dep-4.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/junit/junit-dep/4.10/junit-dep-4.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit-dep/4.10/junit-dep-4.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit-dep/4.10/junit-dep-4.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit-dep/4.10/junit-dep-4.10-sources.jar
+[info] 	[SUCCESSFUL ] junit#junit-dep;4.10!junit-dep.jar(src) (38ms)
+[debug] 		tried /home/ztl/.ivy2/local/org.mockito/mockito-all/1.9.0/srcs/mockito-all-sources.jar
 [debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.9.0!mockito-all.jar
-[debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.9.0!mockito-all.jar(src)
+[debug] 		tried file:/home/ztl/.sbt/preloaded/org.mockito/mockito-all/1.9.0/srcs/mockito-all-sources.jar
+[debug] 		tried file:////home/ztl/.sbt/preloaded/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0-sources.jar
+[info] 	[SUCCESSFUL ] org.mockito#mockito-all;1.9.0!mockito-all.jar(src) (73ms)
 [debug] 	[NOT REQUIRED] com.typesafe.genjavadoc#genjavadoc-plugin_2.10.4;0.8!genjavadoc-plugin_2.10.4.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 2139ms :: artifacts dl 61ms
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT compile produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-compile.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT runtime produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-runtime.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT test produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-test.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT provided produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-provided.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT optional produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-optional.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT compile-internal produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-compile-internal.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT runtime-internal produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-runtime-internal.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT test-internal produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-test-internal.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT plugin produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-plugin.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT sources produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-sources.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT docs produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-docs.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT pom produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-pom.xml
-[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT scala-tool produced in /home/cs143/CS143/project2/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-scala-tool.xml
-[debug] 	resolve done (2139ms resolve - 61ms download)
+[debug] :: resolution report :: resolve 3604ms :: artifacts dl 3247ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT compile produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-compile.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT runtime produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-runtime.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT test produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-test.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT provided produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-provided.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT optional produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-optional.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT compile-internal produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-compile-internal.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT runtime-internal produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-runtime-internal.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT test-internal produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-test-internal.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT plugin produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-plugin.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT sources produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-sources.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT docs produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-docs.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT pom produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-pom.xml
+[debug] 	report for org.apache.spark#spark-mllib$sources_2.10;1.3.0-SNAPSHOT scala-tool produced in /home/ztl/miaomiaomiao/mllib/target/resolution-cache/reports/org.apache.spark-spark-mllib$sources_2.10-scala-tool.xml
+[debug] 	resolve done (3604ms resolve - 3247ms download)

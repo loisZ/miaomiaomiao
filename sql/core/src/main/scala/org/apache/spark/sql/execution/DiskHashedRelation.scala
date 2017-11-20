@@ -81,7 +81,6 @@ private[sql] class DiskPartition (
     * @param row the [[Row]] we are adding
     */
   def insert(row: Row) = {
-    /* IMPLEMENT THIS METHOD */
     if(inputClosed) {
       throw new SparkException("Should not be inserting rows after closing input.")
     }
@@ -133,12 +132,21 @@ private[sql] class DiskPartition (
       var byteArray: Array[Byte] = null
 
       override def next() = {
-        /* IMPLEMENT THIS METHOD */
-        currentIterator.next()
+        if(currentIterator.hasNext){
+          currentIterator.next()
+        }
+        else{
+          // looking for chunks
+          if(fetchNextChunk()) {
+            currentIterator = CS143Utils.getListFromBytes(byteArray).iterator.asScala
+            currentIterator.next()
+          }
+          else null
+        }
+
       }
 
       override def hasNext() = {
-        /* IMPLEMENT THIS METHOD */
         if(currentIterator.hasNext)true
         else fetchNextChunk()
       }
@@ -169,9 +177,8 @@ private[sql] class DiskPartition (
     * also be closed.
     */
   def closeInput() = {
-    /* IMPLEMENT THIS METHOD */
     inputClosed = true
-    if(!data.isEmpty()){
+    if(data.size() > 0){
       spillPartitionToDisk()
       data.clear()
     }
@@ -212,10 +219,10 @@ private[sql] object DiskHashedRelation {
               size: Int = 64,
               blockSize: Int = 64000) = {
     /* IMPLEMENT THIS METHOD */
-    var index: Int = 0;
+    var index: Int = 0
     val partitionArray = new Array[DiskPartition](size)
     for(index <- 1 to size){
-      partitionArray(index - 1) = new DiskPartition("" + index, blockSize)
+      partitionArray(index - 1) = new DiskPartition("Block" + index, blockSize)
     }
     while(input.hasNext){
       val row: Row = input.next()

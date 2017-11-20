@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.json:json:20080701:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/json-20080701.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/json-20080701-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT [compile]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b761921
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b4aa8ec
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -15,17 +15,17 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d482cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cd89e25
 [debug] don't use cache for org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-core_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@738c911c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ae5bb83
 [debug] don't use cache for org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-network-common_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-all;4.0.23.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54530ce0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fb228dd
 [debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	found io.netty#netty-all;4.0.23.Final in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->runtime]
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty-all;4.0.23.Final [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
 [info] Resolving org.spark-project.spark#unused;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1aa05f92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55196a59
 [debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->runtime]
@@ -41,12 +41,12 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.spark#unused;1.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bc6b9be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609ce2c1
 [debug] don't use cache for org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-network-shuffle_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill_2.10;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27ffb2c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@291c80d1
 [debug] sbt-chain: module revision found in cache: com.twitter#chill_2.10;0.5.0
 [debug] 	found com.twitter#chill_2.10;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->runtime]
@@ -54,7 +54,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill_2.10;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill-java;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a2a14c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d22fd70
 [debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
 [debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->runtime]
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#chill-java;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1677adfa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1556fedf
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->runtime]
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.kryo#kryo;2.21 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22f54680
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ddd0d10
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->runtime]
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6715ec84
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57acdf1e
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->runtime]
@@ -86,7 +86,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.esotericsoftware.minlog#minlog;1.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bf3bdf7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22e73086
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
 [debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->runtime]
@@ -94,7 +94,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.objenesis#objenesis;1.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b10958b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@313e5ace
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->runtime]
@@ -102,7 +102,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
 [info] Resolving commons-configuration#commons-configuration;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f80d466
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4af45e34
 [debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
 [debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->runtime]
@@ -110,7 +110,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-configuration#commons-configuration;1.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a050840
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76b875cb
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->runtime]
@@ -118,7 +118,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c6f2f49
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45a6a3e4
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.4
 [debug] 	found commons-lang#commons-lang;2.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->runtime]
@@ -126,7 +126,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-lang#commons-lang;2.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3807a419
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cc358cd
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -134,7 +134,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->default(compile)]
 [info] Resolving commons-digester#commons-digester;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37ab552d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@652b99ed
 [debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
 [debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->runtime]
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-digester#commons-digester;1.8 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
 [info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ff6fd3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@285860d6
 [debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->runtime]
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->default(compile)]
 [info] Resolving commons-el#commons-el;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29032f4c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595637e6
 [debug] sbt-chain: module revision found in cache: commons-el#commons-el;1.0
 [debug] 	found commons-el#commons-el;1.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->runtime]
@@ -158,7 +158,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-el#commons-el;1.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->default(compile)]
 [info] Resolving oro#oro;2.0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e071ba5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48d907cb
 [debug] sbt-chain: module revision found in cache: oro#oro;2.0.8
 [debug] 	found oro#oro;2.0.8 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->runtime]
@@ -166,7 +166,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->oro#oro;2.0.8 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ac01376
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d5b6178
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
@@ -174,7 +174,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b90e81e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41e92ca7
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
@@ -182,7 +182,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@320aa494
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ce654fc
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->runtime]
@@ -190,7 +190,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-recipes;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-framework;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53b6e407
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44a7099e
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->runtime]
@@ -198,7 +198,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-framework;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-client;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@763cf8ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c89a1d2
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->runtime]
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.curator#curator-client;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
 [info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c55e15d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@500dc701
 [debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->runtime]
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->default(compile)]
 [info] Resolving jline#jline;0.9.94 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72772252
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@716c46b6
 [debug] sbt-chain: module revision found in cache: jline#jline;0.9.94
 [debug] 	found jline#jline;0.9.94 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->runtime]
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49d0b80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a032b6d
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime]
@@ -230,7 +230,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-plus;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@564d4f2f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dc79fca
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-plus;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->runtime]
@@ -238,7 +238,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47b5f1ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79e7fc98
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	found org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->runtime]
@@ -246,7 +246,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a844920
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9b842a8
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->runtime]
@@ -254,7 +254,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-xml;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78540907
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f481d06
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-xml;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->runtime]
@@ -262,7 +262,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fe988a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70980d3e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->runtime]
@@ -270,7 +270,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d5a4051
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72c7f714
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->runtime]
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-security;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9c48590
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@360b3be2
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-security;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->runtime]
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70b516d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@222c6ee9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->runtime]
@@ -294,7 +294,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5733d38a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@839f33c
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime]
@@ -302,7 +302,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448c6514
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74e6968f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->runtime]
@@ -310,7 +310,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46dd9503
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@261a9cc9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->runtime]
@@ -318,7 +318,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43b41bd0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b9c3cdc
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->runtime]
@@ -326,7 +326,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b45d526
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@754e1945
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->runtime]
@@ -334,7 +334,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@710725f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f5b83b4
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	found org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->runtime]
@@ -342,7 +342,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@524f72f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d95b05b
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	found org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->runtime]
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e04bd88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d5dd98
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
@@ -358,7 +358,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2329fa0f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3abbdf52
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	found org.apache.commons#commons-math3;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->runtime]
@@ -366,7 +366,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.commons#commons-math3;3.1.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1727e252
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31bb9941
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -374,7 +374,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@362cb2ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@534afe4
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->runtime]
@@ -382,7 +382,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75bbdfcd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fba8a1c
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime]
@@ -390,7 +390,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@326f7eb0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597ac81a
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
 [debug] 	found log4j#log4j;1.2.17 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
@@ -398,7 +398,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70d4e662
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f6d5ff7
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.5
 [debug] 	found org.slf4j#slf4j-log4j12;1.7.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
@@ -406,7 +406,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->default(compile)]
 [info] Resolving com.ning#compress-lzf;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64c43c0a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76f23f0f
 [debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.0
 [debug] 	found com.ning#compress-lzf;1.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->runtime]
@@ -414,7 +414,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.ning#compress-lzf;1.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->default(compile)]
 [info] Resolving org.xerial.snappy#snappy-java;1.1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38be9aff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12861ec8
 [debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	found org.xerial.snappy#snappy-java;1.1.1.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->runtime]
@@ -422,7 +422,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->default(compile)]
 [info] Resolving net.jpountz.lz4#lz4;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a30d56f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10dc0ee4
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	found net.jpountz.lz4#lz4;1.2.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->runtime]
@@ -430,7 +430,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.jpountz.lz4#lz4;1.2.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->default(compile)]
 [info] Resolving org.roaringbitmap#RoaringBitmap;0.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3db431ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f59662c
 [debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	found org.roaringbitmap#RoaringBitmap;0.4.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->runtime]
@@ -438,7 +438,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72f6050d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bbcb0ee
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
 [debug] 	found commons-net#commons-net;2.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->runtime]
@@ -446,7 +446,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-net#commons-net;2.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-remote_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@169a6f46
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5da2d483
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-remote_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-remote_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->runtime]
@@ -454,7 +454,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-remote_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-actor_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43101713
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c42cf3c
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-actor_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-actor_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->runtime]
@@ -462,7 +462,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-actor_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dcf412a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@183e3af0
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->runtime]
@@ -470,7 +470,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a6e70d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33c03682
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->runtime]
@@ -478,7 +478,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->default(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22f390be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bc76861
 [debug] sbt-chain: module revision found in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	found org.spark-project.protobuf#protobuf-java;2.5.0-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->runtime]
@@ -486,7 +486,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38370cb6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15bd54bf
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
@@ -494,7 +494,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21f37ce1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f61af3
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->runtime]
@@ -502,7 +502,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@121391e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c0c6587
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.10;3.2.10
 [debug] 	found org.json4s#json4s-jackson_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->runtime]
@@ -510,7 +510,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-jackson_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c0cb580
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b516fca
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->runtime]
@@ -518,7 +518,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-core_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bab7a08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4171e7de
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->runtime]
@@ -526,7 +526,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.json4s#json4s-ast_2.10;3.2.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@329eec28
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f3598c
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
@@ -534,7 +534,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c8c4496
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24f35f58
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
 [debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->runtime]
@@ -542,7 +542,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scalap;2.10.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6df6e547
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2522f5aa
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->runtime]
@@ -550,7 +550,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17d22d77
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62904f4b
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->runtime]
@@ -558,7 +558,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b1477
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17aa42c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->runtime]
@@ -566,7 +566,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->default(compile)]
 [info] Resolving org.apache.mesos#mesos;0.18.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c6b2087
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aa053aa
 [debug] sbt-chain: module revision found in cache: org.apache.mesos#mesos;0.18.1
 [debug] 	found org.apache.mesos#mesos;0.18.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->runtime]
@@ -574,7 +574,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.mesos#mesos;0.18.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->default(compile)]
 [info] Resolving com.clearspring.analytics#stream;2.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16516487
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@99aa92c
 [debug] sbt-chain: module revision found in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	found com.clearspring.analytics#stream;2.7.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->runtime]
@@ -582,7 +582,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.clearspring.analytics#stream;2.7.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-core;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@698cbe8e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40f8a290
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-core;3.0.0
 [debug] 	found com.codahale.metrics#metrics-core;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->runtime]
@@ -590,7 +590,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-core;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-jvm;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@338e1b01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bd17b7c
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-jvm;3.0.0
 [debug] 	found com.codahale.metrics#metrics-jvm;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->runtime]
@@ -598,7 +598,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-jvm;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-json;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4542e897
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e05fb0b
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-json;3.0.0
 [debug] 	found com.codahale.metrics#metrics-json;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->runtime]
@@ -606,7 +606,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-json;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-graphite;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@199677fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a477ec4
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-graphite;3.0.0
 [debug] 	found com.codahale.metrics#metrics-graphite;3.0.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->runtime]
@@ -614,7 +614,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.codahale.metrics#metrics-graphite;3.0.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30b068fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b53a9fe
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	found org.tachyonproject#tachyon;0.5.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->runtime]
@@ -622,7 +622,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.tachyonproject#tachyon;0.5.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@593e5986
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e4d8d31
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime]
@@ -630,7 +630,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->default(compile)]
 [info] Resolving org.spark-project#pyrolite;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29ced369
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5826fd1f
 [debug] sbt-chain: module revision found in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	found org.spark-project#pyrolite;2.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->runtime]
@@ -638,7 +638,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spark-project#pyrolite;2.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->default(compile)]
 [info] Resolving net.sf.py4j#py4j;0.8.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e7a93a8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@658fb999
 [debug] sbt-chain: module revision found in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	found net.sf.py4j#py4j;0.8.2.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->runtime]
@@ -646,32 +646,32 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.py4j#py4j;0.8.2.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-bagel_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f8f6ae9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f9c554a
 [debug] don't use cache for org.apache.spark#spark-bagel_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-bagel_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@685b1948
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78096616
 [debug] don't use cache for org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-mllib_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@617fef4f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68282a75
 [debug] don't use cache for org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-streaming_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42f04987
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2efd291
 [debug] don't use cache for org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-sql_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@518c47ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f12f921
 [debug] don't use cache for org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-catalyst_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fa155b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75152a9a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->runtime]
@@ -679,7 +679,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d21c274
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50b6999a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
@@ -688,7 +688,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->default(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bbbc6b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c0d67a0
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->runtime]
@@ -696,7 +696,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalamacros#quasiquotes_2.10;2.0.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29348610
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@700f52be
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-column;1.6.0rc3
 [debug] 	found com.twitter#parquet-column;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->runtime]
@@ -704,7 +704,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-column;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@313f801
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10bd686e
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-common;1.6.0rc3
 [debug] 	found com.twitter#parquet-common;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->runtime]
@@ -712,7 +712,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-common;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aa12695
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a1fecfb
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-encoding;1.6.0rc3
 [debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->runtime]
@@ -720,7 +720,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-encoding;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20205526
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@696bcaca
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-generator;1.6.0rc3
 [debug] 	found com.twitter#parquet-generator;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->runtime]
@@ -728,7 +728,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-generator;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65dbf992
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d259645
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.5
 [debug] 	found commons-codec#commons-codec;1.5 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->runtime]
@@ -736,7 +736,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->commons-codec#commons-codec;1.5 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5259de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e5cb179
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-hadoop;1.6.0rc3
 [debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->runtime]
@@ -744,7 +744,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-hadoop;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13e9d789
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16b7ab6a
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-format;2.2.0-rc1
 [debug] 	found com.twitter#parquet-format;2.2.0-rc1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->runtime]
@@ -752,7 +752,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-format;2.2.0-rc1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e7f29ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d575dbf
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-jackson;1.6.0rc3
 [debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->runtime]
@@ -760,7 +760,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.twitter#parquet-jackson;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f5d384b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@168872f1
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->runtime]
@@ -768,7 +768,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ce78d53
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48eb93bf
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->runtime]
@@ -776,7 +776,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->default(compile)]
 [info] Resolving org.jblas#jblas;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47c68884
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@80dab6
 [debug] sbt-chain: module revision found in cache: org.jblas#jblas;1.2.3
 [debug] 	found org.jblas#jblas;1.2.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->runtime]
@@ -784,7 +784,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.jblas#jblas;1.2.3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.10;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bcbb8cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f101455
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.10;0.10
 [debug] 	found org.scalanlp#breeze_2.10;0.10 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->runtime]
@@ -792,7 +792,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze_2.10;0.10 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.10;0.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7273b9a1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e4d8337
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.10;0.3.1
 [debug] 	found org.scalanlp#breeze-macros_2.10;0.3.1 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->runtime]
@@ -800,7 +800,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scalanlp#breeze-macros_2.10;0.3.1 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e5b1348
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@274a10ee
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
@@ -808,7 +808,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@480fa2f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50aee017
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -816,7 +816,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf3b432
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@613d112f
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -824,7 +824,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bd6b814
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a763444
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.10;0.7.4
 [debug] 	found org.spire-math#spire_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->runtime]
@@ -832,7 +832,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire_2.10;0.7.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.10;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11714b7e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49a73b17
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.10;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.10;0.7.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [compile->runtime]
@@ -840,17 +840,17 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.spire-math#spire-macros_2.10;0.7.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-graphx_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@423b386
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18bc038b
 [debug] don't use cache for org.apache.spark#spark-graphx_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-graphx_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ebac425
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b3fba06
 [debug] don't use cache for org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT: changing=true
 [debug] 	found org.apache.spark#spark-repl_2.10;1.3.0-SNAPSHOT in inter-project
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#jline;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10a6cb7e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69a2469f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4
 [debug] 	found org.scala-lang#jline;2.10.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#jline;2.10.4 [compile->runtime]
@@ -858,7 +858,7 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.scala-lang#jline;2.10.4 [compile->master]
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [compile->default(compile)]
 [info] Resolving org.fusesource.jansi#jansi;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fb3b5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c939675
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [compile->runtime]
@@ -6740,88 +6740,88 @@
 [debug] == resolving dependencies org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-all;4.0.23.Final!netty-all.jar
 [debug] 	[NOT REQUIRED] io.netty#netty-all;4.0.23.Final!netty-all.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar
-[debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar
+[debug] 	[NOT REQUIRED] org.spark-project.spark#unused;1.0.0!unused.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar
 [debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar
+[debug] 	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(src)
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(src)
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar(src)
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
 [debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
+[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.4!commons-lang.jar
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.4!commons-lang.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
 [debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar
+[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(src)
-[debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar
 [debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar(src)
-[debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar
+[debug] 	[NOT REQUIRED] commons-el#commons-el;1.0!commons-el.jar
 [debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar(src)
-[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
+[debug] 	[NOT REQUIRED] oro#oro;2.0.8!oro.jar
 [debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar
+[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar
+[debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-plus;8.1.14.v20131031!jetty-plus.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-plus;8.1.14.v20131031!jetty-plus.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645!javax.transaction.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.14.v20131031!jetty-webapp.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.14.v20131031!jetty-xml.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;8.1.14.v20131031!jetty-servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;8.1.14.v20131031!jetty-servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.14.v20131031!jetty-security.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.14.v20131031!jetty-server.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.14.v20131031!jetty-continuation.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.14.v20131031!jetty-continuation.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.14.v20131031!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.14.v20131031!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;8.1.14.v20131031!jetty-jndi.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020!javax.mail.glassfish.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233!javax.activation.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.1.1!commons-math3.jar
@@ -6830,64 +6830,64 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar
-[debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar
 [debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar(src)
-[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar(src)
+[debug] 	[NOT REQUIRED] com.ning#compress-lzf;1.0.0!compress-lzf.jar
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar
-[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar(src)
+[debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.1.6!snappy-java.jar(src)
 [debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar
-[debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar(src)
+[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.2.0!lz4.jar(src)
 [debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar
+[debug] 	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.4.5!RoaringBitmap.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-remote_2.10;2.3.4-spark!akka-remote_2.10.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-remote_2.10;2.3.4-spark!akka-remote_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar
+[debug] 	[NOT REQUIRED] org.spark-project.akka#akka-actor_2.10;2.3.4-spark!akka-actor_2.10.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar
-[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+[debug] 	[NOT REQUIRED] org.spark-project.protobuf#protobuf-java;2.5.0-spark!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark!akka-slf4j_2.10.jar
 [debug] 	[NOT REQUIRED] org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark!akka-slf4j_2.10.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar
 [debug] 	[NOT REQUIRED] org.apache.mesos#mesos;0.18.1!mesos.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.mesos#mesos;0.18.1!mesos.jar
 [debug] 	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar(src)
 [debug] 	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-core;3.0.0!metrics-core.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar(src)
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar(src)
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-jvm;3.0.0!metrics-jvm.jar
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar
-[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar(src)
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-json;3.0.0!metrics-json.jar(src)
 [debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar
+[debug] 	[NOT REQUIRED] com.codahale.metrics#metrics-graphite;3.0.0!metrics-graphite.jar(src)
 [debug] 	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar(src)
 [debug] 	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
@@ -6898,63 +6898,63 @@
 [debug] 	[NOT REQUIRED] net.sf.py4j#py4j;0.8.2.1!py4j.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
 [debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar
+[debug] 	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-common;1.6.0rc3!parquet-common.jar(src)
-[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#parquet-encoding;1.6.0rc3!parquet-encoding.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar(src)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar
 [debug] 	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar
-[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar
-[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.11!jackson-mapper-asl.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar(src)
-[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
+[debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.11!jackson-core-asl.jar
 [debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar(src)
-[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.10!breeze_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar(src)
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
+[debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.3.1!breeze-macros_2.10.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
 [debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar
 [debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(src)
-[debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)
 [debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar
-[debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar
+[debug] 	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar
 [debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.genjavadoc#genjavadoc-plugin_2.10.4;0.8!genjavadoc-plugin_2.10.4.jar(src)
-[debug] :: resolution report :: resolve 2048ms :: artifacts dl 47ms
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT compile produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-compile.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT runtime produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-runtime.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT test produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-test.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT provided produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-provided.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT optional produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-optional.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT compile-internal produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-compile-internal.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT runtime-internal produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-runtime-internal.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT test-internal produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-test-internal.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT plugin produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-plugin.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT sources produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-sources.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT docs produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-docs.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT pom produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-pom.xml
-[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT scala-tool produced in /home/cs143/CS143/project2/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-scala-tool.xml
-[debug] 	resolve done (2048ms resolve - 47ms download)
+[debug] :: resolution report :: resolve 2891ms :: artifacts dl 51ms
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT compile produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-compile.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT runtime produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-runtime.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT test produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-test.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT provided produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-provided.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT optional produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-optional.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT compile-internal produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-compile-internal.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT runtime-internal produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-runtime-internal.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT test-internal produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-test-internal.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT plugin produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-plugin.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT sources produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-sources.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT docs produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-docs.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT pom produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-pom.xml
+[debug] 	report for org.apache.spark#spark-assembly$sources_2.10;1.3.0-SNAPSHOT scala-tool produced in /home/ztl/miaomiaomiao/assembly/target/resolution-cache/reports/org.apache.spark-spark-assembly$sources_2.10-scala-tool.xml
+[debug] 	resolve done (2891ms resolve - 51ms download)

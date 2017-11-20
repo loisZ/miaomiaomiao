@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.sourceforge.htmlunit:htmlunit-core-js:2.14:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/htmlunit-core-js-2.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/htmlunit-core-js-2.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
