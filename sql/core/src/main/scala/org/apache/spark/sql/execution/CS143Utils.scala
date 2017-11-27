@@ -273,14 +273,20 @@ object AggregateIteratorGenerator {
     new Iterator[Row] {
       val postAggregateProjection = CS143Utils.getNewProjection(resultExpressions, inputSchema)
 
+      val joinedRow = new JoinedRow4
+
       def hasNext() = {
         /* IMPLEMENT THIS METHOD */
-        false
+        input.hasNext
       }
 
       def next() = {
         /* IMPLEMENT THIS METHOD */
-        null
+        val (group, buffer) = input.next()
+        val aggregateResults = new GenericMutableRow(1)
+        aggregateResults(0) = buffer.eval(EmptyRow)
+
+        postAggregateProjection(joinedRow(aggregateResults, group))
       }
     }
   }

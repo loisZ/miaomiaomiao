@@ -4,7 +4,7 @@
 		module="spark-mllib_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20171120145938"
+		publication="20171126164213"
 	>
 		<description>
 		spark-mllib

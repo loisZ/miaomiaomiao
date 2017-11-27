@@ -4,7 +4,7 @@
 		module="spark-hive_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20171120145952"
+		publication="20171126164228"
 	>
 		<description>
 		spark-hive
