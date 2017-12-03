@@ -1,0 +1,50 @@
+01:38:44.049 ScalaTest-run-running-SpillableAggregationSuite INFO SparkContext: Running Spark version 1.3.0-SNAPSHOT
+01:38:44.123 ScalaTest-run-running-SpillableAggregationSuite WARN Utils: Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.183.131 instead (on interface eth0)
+01:38:44.124 ScalaTest-run-running-SpillableAggregationSuite WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+01:38:44.157 ScalaTest-run-running-SpillableAggregationSuite INFO SecurityManager: Changing view acls to: ztl
+01:38:44.159 ScalaTest-run-running-SpillableAggregationSuite INFO SecurityManager: Changing modify acls to: ztl
+01:38:44.160 ScalaTest-run-running-SpillableAggregationSuite INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(ztl); users with modify permissions: Set(ztl)
+01:38:44.852 sparkDriver-akka.actor.default-dispatcher-2 INFO Slf4jLogger: Slf4jLogger started
+01:38:44.960 sparkDriver-akka.actor.default-dispatcher-3 INFO Remoting: Starting remoting
+01:38:45.236 sparkDriver-akka.actor.default-dispatcher-3 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.183.131:60455]
+01:38:45.262 ScalaTest-run-running-SpillableAggregationSuite INFO Utils: Successfully started service 'sparkDriver' on port 60455.
+01:38:45.292 ScalaTest-run-running-SpillableAggregationSuite INFO SparkEnv: Registering MapOutputTracker
+01:38:45.319 ScalaTest-run-running-SpillableAggregationSuite INFO SparkEnv: Registering BlockManagerMaster
+01:38:45.346 ScalaTest-run-running-SpillableAggregationSuite INFO DiskBlockManager: Created local directory at /tmp/spark-local-20171203013845-5862
+01:38:45.351 ScalaTest-run-running-SpillableAggregationSuite INFO MemoryStore: MemoryStore started with capacity 473.3 MB
+01:38:45.646 ScalaTest-run-running-SpillableAggregationSuite INFO HttpFileServer: HTTP File server directory is /tmp/spark-ea1c1be2-8333-4110-9cb4-458752cc4cbe
+01:38:45.658 ScalaTest-run-running-SpillableAggregationSuite INFO HttpServer: Starting HTTP Server
+01:38:45.880 ScalaTest-run-running-SpillableAggregationSuite INFO Server: jetty-8.1.14.v20131031
+01:38:45.915 ScalaTest-run-running-SpillableAggregationSuite INFO AbstractConnector: Started SocketConnector@0.0.0.0:54798
+01:38:45.916 ScalaTest-run-running-SpillableAggregationSuite INFO Utils: Successfully started service 'HTTP file server' on port 54798.
+01:38:46.139 ScalaTest-run-running-SpillableAggregationSuite INFO Server: jetty-8.1.14.v20131031
+01:38:46.159 ScalaTest-run-running-SpillableAggregationSuite INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+01:38:46.159 ScalaTest-run-running-SpillableAggregationSuite INFO Utils: Successfully started service 'SparkUI' on port 4040.
+01:38:46.163 ScalaTest-run-running-SpillableAggregationSuite INFO SparkUI: Started SparkUI at http://192.168.183.131:4040
+01:38:46.349 sparkDriver-akka.actor.default-dispatcher-3 INFO AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@192.168.183.131:60455/user/HeartbeatReceiver
+01:38:46.667 ScalaTest-run-running-SpillableAggregationSuite INFO NettyBlockTransferService: Server created on 41188
+01:38:46.670 ScalaTest-run-running-SpillableAggregationSuite INFO BlockManagerMaster: Trying to register BlockManager
+01:38:46.674 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMasterActor: Registering block manager localhost:41188 with 473.3 MB RAM, BlockManagerId(<driver>, localhost, 41188)
+01:38:46.679 ScalaTest-run-running-SpillableAggregationSuite INFO BlockManagerMaster: Registered BlockManager
+01:38:47.578 ScalaTest-run-running-SpillableAggregationSuite INFO SparkContext: Starting job: reduce at SpillableAggregationSuite.scala:65
+01:38:47.612 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Got job 0 (reduce at SpillableAggregationSuite.scala:65) with 1 output partitions (allowLocal=false)
+01:38:47.613 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Final stage: Stage 0(reduce at SpillableAggregationSuite.scala:65)
+01:38:47.614 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Parents of final stage: List()
+01:38:47.640 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Missing parents: List()
+01:38:47.668 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting Stage 0 (MapPartitionsRDD[2] at map at SpillableAggregationSuite.scala:65), which has no missing parents
+01:38:47.753 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(5328) called with curMem=0, maxMem=496301506
+01:38:47.759 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 5.2 KB, free 473.3 MB)
+01:38:47.775 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: ensureFreeSpace(3604) called with curMem=5328, maxMem=496301506
+01:38:47.775 sparkDriver-akka.actor.default-dispatcher-3 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.5 KB, free 473.3 MB)
+01:38:47.779 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:41188 (size: 3.5 KB, free: 473.3 MB)
+01:38:47.780 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerMaster: Updated info of block broadcast_0_piece0
+01:38:47.784 sparkDriver-akka.actor.default-dispatcher-3 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:839
+01:38:47.815 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Submitting 1 missing tasks from Stage 0 (MapPartitionsRDD[2] at map at SpillableAggregationSuite.scala:65)
+01:38:47.817 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+01:38:47.880 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, PROCESS_LOCAL, 7665 bytes)
+01:38:47.904 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+01:38:49.335 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 727 bytes result sent to driver
+01:38:49.352 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1481 ms on localhost (1/1)
+01:38:49.354 task-result-getter-0 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+01:38:49.356 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Stage 0 (reduce at SpillableAggregationSuite.scala:65) finished in 1.510 s
+01:38:49.370 ScalaTest-run-running-SpillableAggregationSuite INFO DAGScheduler: Job 0 finished: reduce at SpillableAggregationSuite.scala:65, took 1.791801 s

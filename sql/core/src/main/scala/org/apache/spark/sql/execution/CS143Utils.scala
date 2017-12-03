@@ -266,7 +266,7 @@ object CachingIteratorGenerator {
   * @param inputSchema
   * @return
   */
-object AggregateIteratorGenerator {
+object AggregateIteratorGenerator {a
   def apply(resultExpressions: Seq[Expression],
             inputSchema: Seq[Attribute]): (Iterator[(Row, AggregateFunction)] => Iterator[Row]) = input => {
 

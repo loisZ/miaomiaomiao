@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/cs143/CS143/project2/project/}spark-style...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/ztl/miaomiaomiao/project/}spark-style...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: org.apache.spark#spark-style_2.10;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,16 +7,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d266bd[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@625ec464[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-structure-extractor;2017.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-structure-extractor;2017.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-structure-extractor;2017.2[0m
+[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-structure-extractor;2017.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-idea-shell;2017.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-idea-shell;2017.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-idea-shell;2017.2[0m
+[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-idea-shell;2017.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.4.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to /home/ztl/.ivy2/cache[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.4.0[0m
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;0.4.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
@@ -63,6 +80,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -97,6 +119,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -134,6 +161,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -170,6 +202,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -206,6 +243,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -298,25 +340,27 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.4.0!scalastyle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor;2017.2!sbt-structure-extractor.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.4!scalariform_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scopt#scopt_2.10;3.2.0!scopt_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 144ms :: artifacts dl 42ms[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT compile produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT runtime produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT test produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT provided produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT optional produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT compile-internal produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT runtime-internal produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT test-internal produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT plugin produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT sources produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT docs produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT pom produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT scala-tool produced in /home/cs143/CS143/project2/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (144ms resolve - 42ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 155ms :: artifacts dl 7ms[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT compile produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT runtime produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT test produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT provided produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT optional produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT compile-internal produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT runtime-internal produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT test-internal produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT plugin produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT sources produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT docs produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT pom produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for org.apache.spark#spark-style_2.10;0.1-SNAPSHOT scala-tool produced in /home/ztl/miaomiaomiao/project/spark-style/target/resolution-cache/reports/org.apache.spark-spark-style_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (155ms resolve - 7ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

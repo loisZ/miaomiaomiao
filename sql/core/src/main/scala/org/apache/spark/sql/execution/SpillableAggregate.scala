@@ -64,13 +64,13 @@ case class SpillableAggregate(
   }.toArray
 
   /** Physical aggregator generated from a logical expression.  */
-  private[this] val aggregator: ComputedAggregate = computedAggregates(0) //IMPLEMENT ME
+  private[this] val aggregator: ComputedAggregate = computedAggregates(0) //IMPLEMENTED
 
   /** Schema of the aggregate.  */
-  private[this] val aggregatorSchema: AttributeReference = aggregator.resultAttribute //IMPLEMENT ME
+  private[this] val aggregatorSchema: AttributeReference = aggregator.resultAttribute //IMPLEMENTED
 
   /** Creates a new aggregator instance.  */
-  private[this] def newAggregatorInstance(): AggregateFunction = aggregator.aggregate.newInstance() //IMPLEMENT ME
+  private[this] def newAggregatorInstance(): AggregateFunction = aggregator.aggregate.newInstance() //IMPLEMENTED
 
   /** Named attributes used to substitute grouping attributes in the final result. */
   private[this] val namedGroups = groupingExpressions.map {
@@ -98,6 +98,7 @@ case class SpillableAggregate(
     child.execute().mapPartitions(iter => generateIterator(iter))
   }
 
+
   /**
     * This method takes an iterator as an input. The iterator is drained either by aggregating
     * values or by spilling to disk. Spilled partitions are successively aggregated one by one
@@ -113,8 +114,14 @@ case class SpillableAggregate(
     var data = input
 
     def initSpills(): Array[DiskPartition] = {
-      /* IMPLEMENT THIS METHOD */
-      null
+      // Initialize new blocks
+      val newBlocks: Array[DiskPartition] = new Array[DiskPartition](numPartitions)
+
+      // set the block size as 0
+      for (i <- 0 to (numPartitions - 1)) {
+        newBlocks(i) = new DiskPartition(i.toString(), 0)
+      }
+      newBlocks
     }
 
     val spills = initSpills()
@@ -129,14 +136,17 @@ case class SpillableAggregate(
       var hashedSpills: Option[Iterator[DiskPartition]] = None
       var diskHashedRelation: Option[DiskHashedRelation] = None
       var aggregateResult: Iterator[Row] = aggregate()
+      val block_iterator = spills.iterator
 
       def hasNext() = {
-        /* IMPLEMENT THIS METHOD */
-        aggregateResult.hasNext
+        // check both aggregate result and spills
+        if(aggregateResult.hasNext) true
+        else if(block_iterator.hasNext && fetchSpill()) true
+        else false
       }
 
       def next() = {
-        /* IMPLEMENT THIS METHOD */
+        // in case of spills.. have already called fetchSpill()
         aggregateResult.next()
       }
 
@@ -146,20 +156,28 @@ case class SpillableAggregate(
         * @return
         */
       private def aggregate(): Iterator[Row] = {
-        /* IMPLEMENT THIS METHOD */
+        // implemented
         var row: Row = null
         while(data.hasNext){
           row = data.next()
-          val group = groupingProjection(row)
+          val group = groupingProjection(row) // ??
           var buffer = currentAggregationTable(group)
           if(buffer == null){
-            buffer = newAggregatorInstance()
-            currentAggregationTable.update(group.copy(), buffer)
+            // spill or not
+            if(CS143Utils.maybeSpill(currentAggregationTable, memorySize)){
+              spillRecord(row)
+            }
+            else{
+              buffer = newAggregatorInstance()
+              currentAggregationTable.update(group.copy(), buffer)
+            }
           }
-
-          buffer.update(row)
+          else buffer.update(row)
         }
 
+        for(block <- spills){
+          block.closeInput()
+        }
         AggregateIteratorGenerator(resultExpression, Seq(aggregatorSchema) ++ namedGroups.map(_._2))(currentAggregationTable.iterator)
       }
 
@@ -168,8 +186,8 @@ case class SpillableAggregate(
         *
         * @return
         */
-      private def spillRecord(group: Row, row: Row)  = {
-        /* IMPLEMENT THIS METHOD */
+      private def spillRecord(row: Row) = {
+        spills(row.hashCode % numPartitions).insert(row)
       }
 
       /**
@@ -179,8 +197,12 @@ case class SpillableAggregate(
         * @return
         */
       private def fetchSpill(): Boolean  = {
-        /* IMPLEMENT THIS METHOD */
-        false
+        if(data.hasNext){
+          currentAggregationTable = new SizeTrackingAppendOnlyMap[Row, AggregateFunction]
+          aggregateResult = aggregate()
+          true
+        }
+        else false
       }
     }
   }
