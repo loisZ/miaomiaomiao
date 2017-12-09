@@ -46,7 +46,7 @@ case class SpillableAggregate(
     * @param unbound Unbound version of this aggregate, used for result substitution.
     * @param aggregate A bound copy of this aggregate used to create a new aggregation buffer.
     * @param resultAttribute An attribute used to refer to the result of this aggregate in the final
-    *                        output.
+    *                        output.sql
     */
   case class ComputedAggregate(
                                 unbound: AggregateExpression,
@@ -160,12 +160,14 @@ case class SpillableAggregate(
         var row: Row = null
         while(data.hasNext){
           row = data.next()
-          val group = groupingProjection(row) // ??
-          var buffer = currentAggregationTable(group)
+
+          val group = groupingProjection(row)
+          var buffer = currentAggregationTable.apply(group)
+
           if(buffer == null){
             // spill or not
             if(CS143Utils.maybeSpill(currentAggregationTable, memorySize)){
-              spillRecord(row)
+              spillRecord(group, row)
             }
             else{
               buffer = newAggregatorInstance()
@@ -186,7 +188,7 @@ case class SpillableAggregate(
         *
         * @return
         */
-      private def spillRecord(row: Row) = {
+      private def spillRecord(group: Row, row: Row) = {
         spills(row.hashCode % numPartitions).insert(row)
       }
 
