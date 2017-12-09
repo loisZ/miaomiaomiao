@@ -25,7 +25,6 @@ public  class AppClient implements org.apache.spark.Logging {
     public  void tryRegisterAllMasters () { throw new RuntimeException(); }
     public  void registerWithMaster () { throw new RuntimeException(); }
     public  void changeMaster (java.lang.String url) { throw new RuntimeException(); }
-    // not preceding
     private  boolean isPossibleMaster (akka.actor.Address remoteUrl) { throw new RuntimeException(); }
     public  scala.PartialFunction<java.lang.Object, scala.runtime.BoxedUnit> receiveWithLogging () { throw new RuntimeException(); }
     /**

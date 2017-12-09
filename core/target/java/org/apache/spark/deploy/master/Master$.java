@@ -12,6 +12,5 @@ public  class Master$ implements org.apache.spark.Logging {
   public  void main (java.lang.String[] argStrings) { throw new RuntimeException(); }
   /** Returns an `akka.tcp://...` URL for the Master actor given a sparkUrl `spark://host:ip`. */
   public  java.lang.String toAkkaUrl (java.lang.String sparkUrl) { throw new RuntimeException(); }
-  // not preceding
   public  scala.Tuple3<akka.actor.ActorSystem, java.lang.Object, java.lang.Object> startSystemAndActor (java.lang.String host, int port, int webUiPort, org.apache.spark.SparkConf conf) { throw new RuntimeException(); }
 }

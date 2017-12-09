@@ -8,9 +8,7 @@ public  class DataType$ {
   public   DataType$ () { throw new RuntimeException(); }
   public  org.apache.spark.sql.catalyst.types.DataType fromJson (java.lang.String json) { throw new RuntimeException(); }
   private  org.apache.spark.sql.catalyst.types.DataType parseDataType (org.json4s.JsonAST.JValue json) { throw new RuntimeException(); }
-  // not preceding
   private  org.apache.spark.sql.catalyst.types.StructField parseStructField (org.json4s.JsonAST.JValue json) { throw new RuntimeException(); }
-  // not preceding
   public  org.apache.spark.sql.catalyst.types.DataType fromCaseClassString (java.lang.String string) { throw new RuntimeException(); }
   protected  void buildFormattedString (org.apache.spark.sql.catalyst.types.DataType dataType, java.lang.String prefix, scala.collection.mutable.StringBuilder builder) { throw new RuntimeException(); }
   /**

@@ -33,9 +33,7 @@ public abstract class DataType {
   }
   static public  org.apache.spark.sql.catalyst.types.DataType fromJson (java.lang.String json) { throw new RuntimeException(); }
   static private  org.apache.spark.sql.catalyst.types.DataType parseDataType (org.json4s.JsonAST.JValue json) { throw new RuntimeException(); }
-  // not preceding
   static private  org.apache.spark.sql.catalyst.types.StructField parseStructField (org.json4s.JsonAST.JValue json) { throw new RuntimeException(); }
-  // not preceding
   static public  org.apache.spark.sql.catalyst.types.DataType fromCaseClassString (java.lang.String string) { throw new RuntimeException(); }
   static protected  void buildFormattedString (org.apache.spark.sql.catalyst.types.DataType dataType, java.lang.String prefix, scala.collection.mutable.StringBuilder builder) { throw new RuntimeException(); }
   /**

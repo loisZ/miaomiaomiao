@@ -105,13 +105,22 @@ case class PartitionProject(projectList: Seq[Expression], child: SparkPlan) exte
     new Iterator[Row] {
       def hasNext() = {
         /* IMPLEMENT THIS METHOD */
-        if(iterate != null && iterate.hasNext) true
-        else fetchNextPartition()
+        if(iterate != null && iterate.hasNext) {
+          true
+        }
+        else{
+          fetchNextPartition()
+        }
       }
 
       def next() = {
         /* IMPLEMENT THIS METHOD */
-        iterate.next()
+        if(hasNext()){
+          iterate.next()
+        }
+        else{
+          null
+        }
       }
 
       /**
@@ -122,9 +131,12 @@ case class PartitionProject(projectList: Seq[Expression], child: SparkPlan) exte
         */
       private def fetchNextPartition(): Boolean  = {
         /* IMPLEMENT THIS METHOD */
-        if(!partitions.hasNext)false
+        if(!partitions.hasNext){
+          false
+        }
         else{
-          iterate = CS143Utils.generateCachingIterator(projectList, child.output)(partitions.next().getData())
+          val caching = CS143Utils.generateCachingIterator(projectList, child.output)
+          iterate = caching(partitions.next().getData())
           true
         }
       }

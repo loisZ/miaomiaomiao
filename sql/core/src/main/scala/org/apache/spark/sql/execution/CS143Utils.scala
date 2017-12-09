@@ -128,17 +128,13 @@ object CS143Utils {
     */
   def getUdfFromExpressions(expressions: Seq[Expression]): ScalaUdf = {
     /* IMPLEMENT THIS METHOD */
-    def recur(expressions: Seq[Expression]): ScalaUdf = {
-      expressions match {
-        case Nil => null
-        case head :: tail => head match{
-          case udf: ScalaUdf => udf
-          case _ => recur(tail)
-        }
-      }
-    }
-
-    recur(expressions.reverse)
+      var udfResult: ScalaUdf = null
+      expressions.foreach(expression => udfResult =
+        expression match {
+        case udfExpression: ScalaUdf => udfExpression
+        case _ => udfResult
+      })
+      udfResult
   }
   /**
     * This function takes a sequence of expressions. If there is no UDF in the sequence of expressions, it does
@@ -240,18 +236,18 @@ object CachingIteratorGenerator {
         if(!input.hasNext)null
         else{
           val row: Row = input.next()
-          val key: Row = cacheKeyProjection.apply(row)
-          val UDFValue: Row = {
-            if(cache.containsKey(key))cache.get(key)
-            else{
-              val newUDFValue: Row = udfProject.apply(row)
-              cache.put(key, newUDFValue)
-              newUDFValue
-            }
+          val pre: Row = preUdfProjection(row)
+          val post: Row = postUdfProjection(row)
+          val udfKey: Row = cacheKeyProjection(row)
+          var udfValue: Row = null
+          if(cache.containsKey(udfKey)){
+            udfValue = cache.get(udfKey)
           }
-          val pre: Row = preUdfProjection.apply(row)
-          val post: Row = postUdfProjection.apply(row)
-          Row.fromSeq(pre ++ UDFValue ++ post)
+          else{
+            udfValue = udfProject(row)
+            cache.put(udfKey, udfValue)
+          }
+          Row.fromSeq(pre ++ udfValue ++ post)
         }
       }
     }
@@ -266,7 +262,7 @@ object CachingIteratorGenerator {
   * @param inputSchema
   * @return
   */
-object AggregateIteratorGenerator {a
+object AggregateIteratorGenerator {
   def apply(resultExpressions: Seq[Expression],
             inputSchema: Seq[Attribute]): (Iterator[(Row, AggregateFunction)] => Iterator[Row]) = input => {
 

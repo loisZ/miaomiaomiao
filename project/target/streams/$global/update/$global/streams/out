@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/ztl/miaomiaomiao/project/}plugins...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/cs143/CS143/project2/project/}plugins...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: plugins#plugins;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -12,29 +12,13 @@
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-style_2.10;0.1-SNAPSHOT in inter-project[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@625ec464[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@370ecb64[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-structure-extractor;2017.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-structure-extractor;2017.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-structure-extractor;2017.2[0m
-[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-structure-extractor;2017.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-idea-shell;2017.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-idea-shell;2017.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-idea-shell;2017.2[0m
-[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-idea-shell;2017.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.4.0 {compile=[default(compile)]}[0m
@@ -91,7 +75,6 @@
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven-aether-provider;3.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven-aether-provider;3.0.4 {compile=[default(compile)]}[0m
@@ -455,14 +438,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-provider-api;2.2->org.codehaus.plexus#plexus-utils;3.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-provider-api;2.2->org.codehaus.plexus#plexus-utils;3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.2 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.8.2 {test=[runtime(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-provider-api;2.2->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-provider-api;2.2->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http;2.2->org.apache.maven.wagon#wagon-http-shared4;2.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http;2.2->org.apache.maven.wagon#wagon-http-shared4;2.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-http-shared4;2.2->org.jsoup#jsoup;1.6.1 [runtime->runtime(*)][0m
@@ -906,7 +889,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven-compat;3.0.4 {runtime=[compile(*), runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.maven#maven-compat;3.0.4[0m
 [0m[[0mdebug[0m] [0m	found org.apache.maven#maven-compat;3.0.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -929,8 +913,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -952,6 +934,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -996,7 +979,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.11.2 {compile=[default(compile)]}[0m
@@ -1160,8 +1142,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
@@ -1169,11 +1150,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->master][0m
@@ -1605,11 +1587,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -1647,7 +1624,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.10;3.2.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->compile][0m
@@ -2248,7 +2224,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -2271,8 +2248,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -2294,6 +2269,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -2330,7 +2306,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
@@ -2753,11 +2728,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -2795,7 +2765,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.10;3.2.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->compile][0m
@@ -3396,7 +3365,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -3419,8 +3389,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -3442,6 +3410,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -3478,7 +3447,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
@@ -4423,11 +4391,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -4465,7 +4428,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.10;3.2.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->compile][0m
@@ -5066,7 +5028,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -5089,8 +5052,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -5112,6 +5073,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -5148,7 +5110,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
@@ -5912,11 +5873,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -5954,7 +5910,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.10;3.2.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->compile][0m
@@ -6555,7 +6510,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -6578,8 +6534,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -6601,6 +6555,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -6637,7 +6592,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
@@ -7062,11 +7016,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->compile][0m
@@ -7104,7 +7053,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.scopt#scopt_2.10;3.2.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-style_2.10;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.4.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven#maven-aether-provider;3.0.4 [compile->compile][0m
@@ -7705,7 +7653,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [compile->master(*)][0m
@@ -7728,8 +7677,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model;3.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven#maven-model-builder;3.0.4 [runtime->runtime(*)][0m
@@ -7751,6 +7698,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.codehaus.plexus#plexus-component-annotations;1.5.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-compat;3.0.4->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.apache.maven#maven-compat;3.0.4 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;2.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven#maven-embedder;3.0.4->org.codehaus.plexus#plexus-utils;3.0 [runtime->compile][0m
@@ -7787,7 +7735,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.maven.wagon#wagon-file;2.2->org.apache.maven.wagon#wagon-provider-api;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-pom-reader;1.0-b23300238303ee934383b5d8ac85cd27be2a9f76->org.apache.maven.wagon#wagon-file;2.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies plugins#plugins;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.2.0 [compile->default(compile)][0m
@@ -8629,8 +8576,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-commons;5.0.3!asm-commons.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor;2017.2!sbt-structure-extractor.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.maven#maven-aether-provider;3.0.4!maven-aether-provider.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.sonatype.aether#aether-connector-wagon;1.13.1!aether-connector-wagon.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.maven.wagon#wagon-http;2.2!wagon-http.jar[0m
@@ -8739,19 +8684,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.6!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2227ms :: artifacts dl 78ms[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT compile produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT runtime produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT test produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT provided produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT optional produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT compile-internal produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT runtime-internal produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT test-internal produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT plugin produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT sources produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT docs produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT pom produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT scala-tool produced in /home/ztl/miaomiaomiao/project/target/resolution-cache/reports/plugins-plugins-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2227ms resolve - 78ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4359ms :: artifacts dl 182ms[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT compile produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT runtime produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT test produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT provided produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT optional produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT compile-internal produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT runtime-internal produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT test-internal produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT plugin produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT sources produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT docs produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT pom produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for plugins#plugins;0.1-SNAPSHOT scala-tool produced in /home/cs143/CS143/project2/project/target/resolution-cache/reports/plugins-plugins-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (4359ms resolve - 182ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

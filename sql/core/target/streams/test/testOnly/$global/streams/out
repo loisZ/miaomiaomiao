@@ -2,15 +2,15 @@
 [0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
 [0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
 [0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.InMemoryAggregateSuite, sbt.ForkMain$SubclassFingerscan@560979c0, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[32mInMemoryAggregateSuite:[0m[0m
-[0m[[0minfo[0m] [0m[32m- empty grouping aggregate (596 milliseconds)[0m[0m
-[0m[[0minfo[0m] [0m[32m- nonempty grouping aggregate (165 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.SpillableAggregationSuite, sbt.ForkMain$SubclassFingerscan@6a697c09, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mSpillableAggregationSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- maybeSpill (105 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- spillable aggregate (4 seconds, 181 milliseconds)[0m[0m
 [0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
 [0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
 [0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 4 seconds, 956 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 5 seconds, 405 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 2[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
@@ -18,4 +18,4 @@
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
 [0m[[0minfo[0m] [0mPassed: Total 2, Failed 0, Errors 0, Passed 2[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.InMemoryAggregateSuite[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.SpillableAggregationSuite[0m

@@ -1,5 +1,6 @@
 package org.apache.spark.storage;
 // no position
+// not preceding
 public  class IteratorValues$ extends scala.runtime.AbstractFunction1<scala.collection.Iterator<java.lang.Object>, org.apache.spark.storage.IteratorValues> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.
